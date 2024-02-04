@@ -1,25 +1,10 @@
-export const aboutMe = `I am a diligent and well ordered new graduate with a Software Engineering (Faculty of
-    Science) degree from McGill University. I am writing this letter in response to your AP-012 Software Engineer/Programmer job posting on LinkedIn.
+export const aboutMe = `I am a diligent and well ordered new graduate with a Software Engineering (Faculty of Science) degree from McGill University. I am writing this letter in response to your AP-012 Software Engineer/Programmer job posting on LinkedIn.
+
+    In the past couple of years, I have invested a consistent amount of time and effort in picking up new technical skills, enhancing leadership and teamwork skills and meeting deadlines. With perseverance and a knack for working under pressure I was successful in achieving an overall acceptable academic performance.
+   
+    During my time in McGill I had the opportunity to work on several individual and group projects. Through these projects I gained exposure to some of the most widely used programming languages such as C++, Java, Python and JavaScript. I have developed strong communication skills through working with a diverse group of people and teams throughout my programme duration. As a team, we had to handle unanticipated hurdles, communicate and coordinate to avoid clutter, schedule tasks and come up with an end product before the deadline. The aforementioned tasks, efforts and skills have prepared us to perform in an office environment. During my years at McGill, I have invested a great deal of my time in brainstorming ideas and solutions to coding and designing projects from scratch and managing a group of designers towards a successful completion.
     
-    In the past couple of years, I have invested a consistent amount of time and effort in
-    picking up new technical skills, enhancing leadership and teamwork skills and meeting
-    deadlines. With perseverance and a knack for working under pressure I was successful in
-    achieving an overall acceptable academic performance.
-    
-    During my time in McGill I had the opportunity to work on several individual and group
-    projects. Through these projects I gained exposure to some of the most widely used
-    programming languages such as C++, Java, Python and JavaScript. I have developed strong
-    communication skills through working with a diverse group of people and teams throughout my
-    programme duration. As a team, we had to handle unanticipated hurdles, communicate and
-    coordinate to avoid clutter, schedule tasks and come up with an end product before the deadline.
-    The aforementioned tasks, efforts and skills have prepared us to perform in an office
-    environment. During my years at McGill, I have invested a great deal of my time in
-    brainstorming ideas and solutions to coding and designing projects from scratch and managing a
-    group of designers towards a successful completion.
-    
-    I am a fast learner who is always keen on picking up new skills and gaining knowledge. I
-    believe I would be a useful addition to any company where I can participate, share knowledge
-    and contribute to the growth of my team.
+    I am a fast learner who is always keen on picking up new skills and gaining knowledge. I believe I would be a useful addition to any company where I can participate, share knowledge and contribute to the growth of my team.
     `
 
 export const myprojects = [
@@ -64,5 +49,15 @@ export const myprojects = [
         Hosted the site using Netlify.`,
         year: "Fall 2021"
     },
+    {
+        title:"Logistic Regression and Naive Bayes",
+        description: `Implemented two classification techniques in Python —logistic regression and naive Bayes from scratch on four distinct datasets and compared the accuracy of both classification techniques on the four datasets.
+        Cleaned the datasets by removing any data with missing or malformed features and used one-hot encoding for categorical variables.
+        Computed basic statistics such as distributions of the positive vs. negative classes, distributions of some of the numerical features, correlations between the features etcetera to get a better understanding of the data.
+        Implemented a script to run k-fold cross validation.
+        Compared the accuracy of naive Bayes and logistic regression on the four datasets.
+        Compared the accuracy of the two models as a function of the size of the dataset (by controlling the training size).`,
+        year: "Winter 2020"
+    }
 
 ]

@@ -1,13 +1,13 @@
-import myphoto from '../assets/IMG_4902.JPG'
+import myphoto from '../assets/photo.jpg'
+import WrapperComponent from './WrapperComponent'
 export default function Profile(){
-    return <div className="py-16 px-16 text-center">
-        <img src={myphoto}  className='h-1/4 w-1/4 mx-auto my-6'/>
-        <h1 className="font-bold text-xl">
+    return <WrapperComponent>
+        <img src={myphoto} className='w-1/3 h-1/3 mx-auto'/>
+        <h1 className="font-bold text-2xl text-center my-6">
             Mobassera Zaman
         </h1>
-        <p>
-            Looking for Entry Level opportunities.
-
+        <p className="text-center">
+            Former Software Engineer at HubSpot. Looking for Entry Level opportunities.
         </p>
-    </div>
+    </WrapperComponent>
 }

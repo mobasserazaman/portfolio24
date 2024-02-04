@@ -21,7 +21,7 @@ const Downloads = forwardRef(function Modal(props, ref) {
     }
 
     return <dialog ref={dialog}>
-        <div className="w-[30rem] h-[25rem] bg-stone-700 text-stone-200 text-center py-16">
+        <div className="w-[30rem] h-[25rem] bg-stone-800 text-stone-200 text-center py-16">
             <h1 className='text-2xl'>Downloads</h1>
             <ul className="py-8">
                 <li className="py-4">

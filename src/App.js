@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <main className="flex my-20 h-screen">
+    <main className="flex my-20">
     <Sidebar onSelect={handleSetContent}/>
     <div className="text-stone-500 w-3/4">
       <Downloads ref={downloadsRef}/>
