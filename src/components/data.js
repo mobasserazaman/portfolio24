@@ -1,10 +1,13 @@
-export const aboutMe = `I am a diligent and well ordered new graduate with a Software Engineering (Faculty of Science) degree from McGill University. I am writing this letter in response to your AP-012 Software Engineer/Programmer job posting on LinkedIn.
+export const aboutMe = `I am a diligent and well ordered graduate with a Software Engineering (Faculty of Science) degree from McGill University.
 
-    In the past couple of years, I have invested a consistent amount of time and effort in picking up new technical skills, enhancing leadership and teamwork skills and meeting deadlines. With perseverance and a knack for working under pressure I was successful in achieving an overall acceptable academic performance.
+    In the past couple of years, I have invested a consistent amount of time and effort in picking up new technical skills, enhancing leadership and teamwork skills and meeting deadlines.
    
     During my time in McGill I had the opportunity to work on several individual and group projects. Through these projects I gained exposure to some of the most widely used programming languages such as C++, Java, Python and JavaScript. I have developed strong communication skills through working with a diverse group of people and teams throughout my programme duration. As a team, we had to handle unanticipated hurdles, communicate and coordinate to avoid clutter, schedule tasks and come up with an end product before the deadline. The aforementioned tasks, efforts and skills have prepared us to perform in an office environment. During my years at McGill, I have invested a great deal of my time in brainstorming ideas and solutions to coding and designing projects from scratch and managing a group of designers towards a successful completion.
+
+    I have worked as a Front End Software Engineer at HubSpot from April to November 2022 where I got the opportunity to learn about React and its different libraries. I worked in a team of 4 which worked on the HubSpot Chrome and Edge extensions. Together we developed new features, maintained existing codebase and worked on client issues.
     
     I am a fast learner who is always keen on picking up new skills and gaining knowledge. I believe I would be a useful addition to any company where I can participate, share knowledge and contribute to the growth of my team.
+
     `
 
 export const myprojects = [
