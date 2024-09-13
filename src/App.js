@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Downloads from "./components/Downloads";
 import About from "./components/About";
 import Contact from "./components/Contact";
+
 function App() {
 
   const [content, setContent] = useState('Profile');
@@ -48,6 +49,7 @@ function App() {
 
 
   );
+  
 }
 
 export default App;

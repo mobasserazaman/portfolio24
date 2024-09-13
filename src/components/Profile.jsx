@@ -1,4 +1,4 @@
-import myphoto from '../assets/photo.jpg'
+import myphoto from '../assets/pic.png'
 import WrapperComponent from './WrapperComponent'
 export default function Profile(){
     return <WrapperComponent>
