@@ -10,14 +10,14 @@ import Contact from './components/Contact';
 export default function NewApp() {
     return (
         <div className='newapp'>
-            <Router>
+            <Router basename='/portfolio24'>
                 <Navbar/>
                 <Routes>
-                    <Route path="/portfolio24" element={<Profile/>} />
-                    <Route path="/portfolio24/projects" element={<Projects/>} />
-                    <Route path="/portfolio24/skills" element={<Skills/>} />
-                    <Route path="/portfolio24/experience" element={<Experience/>} />
-                    <Route path="/portfolio24/contact" element={<Contact/>} />
+                    <Route path="/" element={<Profile/>} />
+                    <Route path="projects" element={<Projects/>} />
+                    <Route path="skills" element={<Skills/>} />
+                    <Route path="experience" element={<Experience/>} />
+                    <Route path="contact" element={<Contact/>} />
                 </Routes>
             </Router>
         </div>
