@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import myphoto from '../assets/pic.png'
 import resume from '../assets/Resume_Mobassera_Zaman.pdf'
 import transcript from '../assets/Transcript.pdf'
@@ -15,11 +14,11 @@ export default function Profile() {
 
 
     return <fragment className='profile'>
-        <img src={myphoto} className='mx-auto my-20 w-1/5 h-1/5' />
+        <img src={myphoto} className='mx-auto my-20' alt="girl_coding_image"/>
         <h1 className="font-bold text-2xl text-center my-6">
             Mobassera Zaman
         </h1>
-        <p className="text-center">
+        <p className="text-center mx-8">
             Former Software Engineer at HubSpot. Looking for Entry Level opportunities.
         </p>
         <div className="my-5">
