@@ -13,6 +13,10 @@
   }
 }
 
+.newapp {
+  min-height: 100vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -108,11 +112,77 @@ img{
   display: none;
 }
 
+.keywords {
+  display: flex;
+}
+
+.theme {
+  position: absolute;
+  top: 400px;
+  transform: rotate(90deg);
+  display: flex;
+  font-size: 14px;
+}
+
+.theme-group{
+  margin: 0 15px;
+  position: relative;
+}
+
+.theme-group label{
+  position: relative;
+  margin: 0 0 0 10px;
+}
+
+.theme-group label::before{
+  position: absolute;
+  top: 4px;
+  left: -15px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #282c34;
+  border-radius: 2px;
+  cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: #02bf02;
+  border: 2px solid #03d603;
+}
+
+.theme-group input{
+  position: absolute;
+  left: -5px;
+  top: 6px;
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+}
+
+.keywords li{
+  border: 1px solid #06acc9;
+  border-radius: 10px;
+  margin: 14px 14px 0 0;
+  padding: 4px 8px;
+  font-size: 14px;
+  
+}
+
 
 @media screen and (max-width: 800px) {
 
+  .theme {
+    top: 200px;
+  }
+
   .drop-btn {
     display: block;
+  }
+
+  img{
+    height: 300px;
+    width: 250px;
   }
 
   .navbar {
@@ -125,7 +195,7 @@ img{
     color: black;
   }
   .navbar a:hover {
-    background-color: #d7d7d7;
+    background-color: #c8dfe3;
     color: black;
   }
 

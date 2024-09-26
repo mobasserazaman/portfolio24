@@ -1,20 +1,33 @@
+import { useContext } from 'react';
 import myphoto from '../assets/pic.png'
 import resume from '../assets/Resume_Mobassera_Zaman.pdf'
 import transcript from '../assets/Transcript.pdf'
-export default function Profile() {
+import { ThemeContext } from '../NewApp';
+export default function Profile({changeTheme}) {
 
-    function openNewTab(file){
-        if(file === 'transcript'){
-            window.open(transcript,'_blank');
-        }else if(file === 'resume'){
-            window.open(resume,'_blank' );
+    const darkMode = useContext(ThemeContext);
+    console.log(darkMode);
+
+    function openNewTab(file) {
+        if (file === 'transcript') {
+            window.open(transcript, '_blank');
+        } else if (file === 'resume') {
+            window.open(resume, '_blank');
         }
+    }
+
+    function handleChangeTheme(e){
+       if(e.target.checked){
+        changeTheme(true);
+       }else{
+        changeTheme(false);
+       }
     }
 
 
 
-    return <fragment className='profile'>
-        <img src={myphoto} className='mx-auto my-20' alt="girl_coding_image"/>
+    return <div className='profile'>
+        <img src={myphoto} className='mx-auto' alt="girl_coding_image" />
         <h1 className="font-bold text-2xl text-center my-6">
             Mobassera Zaman
         </h1>
@@ -31,6 +44,13 @@ export default function Profile() {
                 <span>Transcript</span>
             </button>
         </div>
+        <div className='theme'>
+            <div className='theme-group'>
+            <input type='checkbox' id='checkbox' onChange={handleChangeTheme} checked={darkMode}></input>
+            <label htmlFor='checkbox'>Dark</label>
+                
+            </div>
+        </div>
 
-    </fragment>
+    </div>
 }
