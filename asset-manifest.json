@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio24/static/css/main.9170e684.css",
-    "main.js": "/portfolio24/static/js/main.13a7cccd.js",
+    "main.css": "/portfolio24/static/css/main.94c9597d.css",
+    "main.js": "/portfolio24/static/js/main.f0213e3f.js",
     "static/js/592.6d7de513.chunk.js": "/portfolio24/static/js/592.6d7de513.chunk.js",
     "static/media/pic.png": "/portfolio24/static/media/pic.8cc7b579fbb7272b7771.png",
     "static/media/Transcript.pdf": "/portfolio24/static/media/Transcript.c63579ec269de485e253.pdf",
     "static/media/Resume_Mobassera_Zaman.pdf": "/portfolio24/static/media/Resume_Mobassera_Zaman.92e0f7e9e7ee185913d0.pdf",
     "index.html": "/portfolio24/index.html",
-    "main.9170e684.css.map": "/portfolio24/static/css/main.9170e684.css.map",
-    "main.13a7cccd.js.map": "/portfolio24/static/js/main.13a7cccd.js.map",
+    "main.94c9597d.css.map": "/portfolio24/static/css/main.94c9597d.css.map",
+    "main.f0213e3f.js.map": "/portfolio24/static/js/main.f0213e3f.js.map",
     "592.6d7de513.chunk.js.map": "/portfolio24/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9170e684.css",
-    "static/js/main.13a7cccd.js"
+    "static/css/main.94c9597d.css",
+    "static/js/main.f0213e3f.js"
   ]
 }
